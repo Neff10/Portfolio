@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import 'font-awesome/css/font-awesome.min.css';
 
 
@@ -9,7 +9,7 @@ function App() {
     <html>
       <head>
       </head>
-      <body>
+      <body id="backimg">
         <header>
           <div className='menuButton'>
             <div className='buttonLine'></div>
@@ -65,7 +65,6 @@ function App() {
           </a>
           </div>
         </main>
-        <script src='js/main.js'></script>
       </body>
     </html>
   );
