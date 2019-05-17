@@ -1,3 +1,5 @@
+@import 'menu';
+
 $showimg: true;
 $primary-color: #444;
 $background-opacity: 0.9;
@@ -27,20 +29,21 @@ html {
       height: 100%;
       z-index: -1;
       background: rgba(#444, $background-opacity);
+    
       }
     }
   }
 }
 
 * {
-  box-sizing: border-box;
-}
+  margin: 0px;
+  padding: 0px;}
 
 body {
   @include background;
   background: $primary-color;
+  background: cover;
   color: #fff;
-  margin: 0;
 
   /* Set rules to fill background */
   min-height: 100%;
@@ -95,6 +98,7 @@ header {
 }
 
 main {
+
   padding: 4rem;
   width: 100%;
   
@@ -118,6 +122,15 @@ main {
       margin-top: 20vh;
     }
   }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  text-align: center;
 }
 
 
