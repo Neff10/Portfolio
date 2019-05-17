@@ -30,7 +30,6 @@ class App extends React.Component {
                   </ul>
                 </div>
               </nav>
-              <div className='footer'>Hello World</div>
             </header>
             <main id='home'>
               <h1 className='name'>
