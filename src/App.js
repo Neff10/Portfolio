@@ -23,10 +23,8 @@ class App extends React.Component {
                   <span></span>
                   <span></span>
                   <ul id="menu">
-                    <b href="#"><li>Home</li></b>
-                    <b href="#"><li>About</li></b>
-                    <b href="#"><li>Info</li></b>
-                    <b href="#"><li>Contact</li></b>
+                    <b href="#"><li>Kodflix</li></b>
+                    <b href="#"><li>Accessibility Live</li></b>
                   </ul>
                 </div>
               </nav>
